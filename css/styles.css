@@ -16,7 +16,9 @@ nav{
 }
 nav a{
   text-transform: uppercase;
-  color: var(--title);
+  color: red;
+  font-size: 2rem;
+  
 }
 nav a span{
   font-weight: bold;

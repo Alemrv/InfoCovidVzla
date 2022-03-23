@@ -51,7 +51,13 @@ chartTotales();
     const config = {
     type: 'bar',
     data: data,
-    options: {}
+    options: {
+        scales: {
+            y: {
+              suggestedMin: 1,
+            }    
+        }
+    }
     };
 
     const myChart = new Chart(
@@ -84,7 +90,11 @@ async function chartActivosRecuperados(){
     type: 'line',
     data: data,
     options: {
-
+        scales: {
+            y: {
+              suggestedMin: 1,
+            }    
+        }
     }
     };
 

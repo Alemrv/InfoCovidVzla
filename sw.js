@@ -4,6 +4,7 @@ const assets = [
   '/',
   '/index.html',
   '/js/app.js',
+  '/js/chart.js',
   '/js/ui.js',
   '/js/materialize.min.js',
   '/css/styles.css',

@@ -41,30 +41,29 @@
     <!-- side nav -->
     <ul id="side-menu" class="sidenav side-menu">
       <li><a class="subheader">INFOCOVIDVZLA</a></li>
-      <li><a href="/" class="waves-effect">Home</a></li>
-      <li><a href="/pages/about.html" class="waves-effect">About</a></li>
+      <li><a href="/" class="waves-effect">Inicio</a></li>
+      <li><a href="/pages/about.html" class="waves-effect">Información Adicional</a></li>
       <li><div class="divider"></div></li>
       <li>
         <a href="/pages/contact.html" class="waves-effect">
-          <i class="material-icons">mail_outline</i>Contact</a
+          <i class="material-icons">mail_outline</i>Contacto</a
         >
       </li>
     </ul>
     <div class="container">
-      <div class="divider"></div>
       <div class="row card-panel hoverable">
-        <div class="col s12 m6 l6 xl6"><canvas id="myChart"></canvas></div>
-        <div class="col s12 m6 l6 xl6"><canvas id="myChart2"></canvas></div>
+        <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos Nuevos y Fallecidos</h5><canvas id="myChart2"></canvas></div>
+        <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos por Estados</h5><canvas id="myChart6"></canvas></div>
       </div>
       <div class="divider"></div>
       <div class="row card-panel hoverable">
-        <div class="col s12 m6 l6 xl6"><canvas id="myChart3"></canvas></div>
-        <div class="col s12 m6 l6 xl6"><canvas id="myChart4"></canvas></div>
+        <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos Activos y Recuperados</h5><canvas id="myChart3"></canvas></div>
+        <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos por Edad</h5><canvas id="myChart4"></canvas></div>
       </div>
       <div class="divider"></div>
       <div class="row card-panel hoverable">
-        <div class="col s12 m6 l6 xl6"><h5>hello</h5><canvas id="myChart5"></canvas></div>
-        <div class="col s12 m6 l6 xl6"><h5>hello</h5><canvas id="myChart6"></canvas></div>
+        <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos Totales</h5><canvas id="myChart"></canvas></div>
+        <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos Hombres vs Mujeres</h5><canvas id="myChart5"></canvas></div>
       </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
