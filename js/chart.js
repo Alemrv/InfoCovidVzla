@@ -1,4 +1,4 @@
-var labelultimosDias  = [], labelUltimosActivos = [], labelUltimosNuevos = [], labelUltimosRecuperados = [], labelultimosMuertes  = [], labelTotales = [],     labelEstados = [], labelDataEstados = [], labelGenero = [], labelDataGenero = [], labelEdad = [], labelDataEdad = []
+var labelultimosDias  = [], labelUltimosActivos = [], labelUltimosNuevos = [], labelUltimosRecuperados = [], labelultimosMuertes  = [], labelTotales = [],     labelEstados = [], labelDataEstados = [], labelDataGenero = [], labelEdad = [], labelDataEdad = []
 
 async function chartTotales(){
 
@@ -139,7 +139,7 @@ async function chartGenero(){
     await getData();
 
     const data = {
-    labels: labelGenero,
+    labels: ["Hombres", "Mujeres"],
     datasets: [{
         label: 'Casos por género ',
         backgroundColor:['rgb(18, 78, 120)','rgb(249, 110, 70)'], 
@@ -253,9 +253,7 @@ async function getData() {
 
     //data del total de casos por genero
     const genero = barChatData2.Confirmed.ByGender;
-    const generoArray = Object.keys(genero);
     const dataGeneroArray = Object.values(genero);
-    labelGenero = generoArray;
     labelDataGenero = dataGeneroArray;
 
     //data del total de casos por edad

@@ -41,6 +41,8 @@
 
     <!-- side nav -->
     <ul id="side-menu" class="sidenav side-menu">
+      <li><a class="waves-effect waves-light btn" id="enableNotifications"><i class="material-icons right white-text">notifications_active</i>Notificaciones</a></li>
+      <li><div class="divider"></div></li>
       <li><a class="subheader">INFOCOVIDVZLA</a></li>
       <li><a href="/" class="waves-effect">Estadísticas</a></li>
       <li><a href="/pages/about.html" class="waves-effect">Información adicional</a></li>
@@ -51,6 +53,8 @@
         >
       </li>
     </ul>
+
+    <!--main content-->
     <div class="container">
       <div class="row card-panel hoverable">
         <div class="col s12 m12 l6 xl6"><h5 class="text-darken-2">Casos Nuevos y Fallecidos</h5><canvas id="myChart2"></canvas></div>
@@ -89,7 +93,6 @@
     </script>
     <script defer src="/js/chart.js"></script>
     <script defer src="/js/app.js"></script>
-    <script defer src="/js/db.js"></script>
     <script defer src="/js/ui.js"></script>
   </body>
 </html>

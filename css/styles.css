@@ -34,3 +34,8 @@ nav .sidenav-trigger{
 .covidTag{
   color: var(--title);
 }
+
+#enableNotifications{
+
+  background-color: var(--title);
+}
