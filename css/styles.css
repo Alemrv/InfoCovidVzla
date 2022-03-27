@@ -39,3 +39,17 @@ nav .sidenav-trigger{
 
   background-color: var(--title);
 }
+
+@media (max-width: 600px) {
+  
+  .container{
+    width: 95%;
+  }
+  .row{
+
+    margin: 0px;
+  }
+  .card-panel{
+    padding: 0px;
+  }
+}
